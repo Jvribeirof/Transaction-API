@@ -27,7 +27,7 @@ public class TransactionDTOTest {
     }
 
     @ParameterizedTest
-    @ValueSource(doubles = {-10.0, -1.5, 0.0})
+    @ValueSource(doubles = {-10.0, -1.5})
     public void valorShouldNotBeNegative(double valor){
         TransactionDTO transaction = new TransactionDTO(
                     BigDecimal.valueOf(valor),
@@ -58,7 +58,7 @@ public class TransactionDTOTest {
         );
         violations = validator.validate(transaction);
         assertFalse(violations.isEmpty());
-        assertEquals("valor must not be null",
+        assertEquals("dataHora must not be null",
                 violations.iterator().next().getMessage());
     }
     @Test

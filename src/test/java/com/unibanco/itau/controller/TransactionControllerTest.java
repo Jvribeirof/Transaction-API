@@ -1,13 +1,12 @@
 package com.unibanco.itau.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.unibanco.itau.dto.StatisticDTO;
 import com.unibanco.itau.dto.TransactionDTO;
 import com.unibanco.itau.service.TransactionService;
 import jakarta.validation.Validation;
 import jakarta.validation.Validator;
 import jakarta.validation.ValidatorFactory;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.MediaType;
@@ -20,6 +19,8 @@ import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @WebMvcTest(TransactionController.class)
@@ -48,5 +49,20 @@ public class TransactionControllerTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(expectedJson))
                 .andExpect(status().isCreated());
+    }
+
+    @Test
+    public void getTransaction_Return200_WhenShowStatistics() throws Exception {
+        StatisticDTO statistic = new StatisticDTO(
+                1,BigDecimal.valueOf(2),BigDecimal.valueOf(2),BigDecimal.valueOf(2),BigDecimal.valueOf(2)
+        );
+        mockMvc.perform(get("/api/transacao"))
+                .andExpect(status().isOk());
+    }
+
+    @Test
+    public void deleteTransaction_Return200_WhenDeleteStatistics() throws Exception {
+        mockMvc.perform(delete("/api/transacao"))
+                .andExpect(status().isOk());
     }
 }

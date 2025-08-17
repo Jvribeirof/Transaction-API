@@ -32,7 +32,7 @@ public class StatisticDTOTest {
         );
         Set<ConstraintViolation<StatisticDTO>> violations = validator.validate(statistic);
         assertFalse(violations.isEmpty());
-        assertEquals("não deve ser nulo",
+        assertEquals("count must not be null",
                 violations.iterator().next().getMessage());
     }
     @Test
@@ -46,7 +46,7 @@ public class StatisticDTOTest {
         );
         Set<ConstraintViolation<StatisticDTO>> violations = validator.validate(statistic);
         assertFalse(violations.isEmpty());
-        assertEquals("não deve ser nulo",
+        assertEquals("sum must not be null",
                 violations.iterator().next().getMessage());
     }
     @Test
@@ -60,7 +60,7 @@ public class StatisticDTOTest {
         );
         Set<ConstraintViolation<StatisticDTO>> violations = validator.validate(statistic);
         assertFalse(violations.isEmpty());
-        assertEquals("não deve ser nulo",
+        assertEquals("avg must not be null",
                 violations.iterator().next().getMessage());
     }
     @Test
@@ -74,7 +74,7 @@ public class StatisticDTOTest {
         );
         Set<ConstraintViolation<StatisticDTO>> violations = validator.validate(statistic);
         assertFalse(violations.isEmpty());
-        assertEquals("não deve ser nulo",
+        assertEquals("min must not be null",
                 violations.iterator().next().getMessage());
     }
     @Test
@@ -88,7 +88,7 @@ public class StatisticDTOTest {
         );
         Set<ConstraintViolation<StatisticDTO>> violations = validator.validate(statistic);
         assertFalse(violations.isEmpty());
-        assertEquals("não deve ser nulo",
+        assertEquals("max must not be null",
                 violations.iterator().next().getMessage());
     }
 }
