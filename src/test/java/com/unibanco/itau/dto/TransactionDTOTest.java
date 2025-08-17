@@ -1,4 +1,4 @@
-package com.unibanco.itau;
+package com.unibanco.itau.dto;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validation;
@@ -35,7 +35,7 @@ public class TransactionDTOTest {
         );
         violations = validator.validate(transaction);
         assertFalse(violations.isEmpty());
-        assertEquals("deve ser maior que 0",
+        assertEquals("valor must be zero or higher",
                 violations.iterator().next().getMessage());
     }
     @Test
@@ -46,7 +46,7 @@ public class TransactionDTOTest {
         );
         violations = validator.validate(transaction);
         assertFalse(violations.isEmpty());
-        assertEquals("não deve ser nulo",
+        assertEquals("valor must not be null",
                 violations.iterator().next().getMessage());
 
     }
@@ -58,7 +58,7 @@ public class TransactionDTOTest {
         );
         violations = validator.validate(transaction);
         assertFalse(violations.isEmpty());
-        assertEquals("não deve ser nulo",
+        assertEquals("valor must not be null",
                 violations.iterator().next().getMessage());
     }
     @Test
@@ -69,7 +69,7 @@ public class TransactionDTOTest {
         );
         violations = validator.validate(transaction);
         assertFalse(violations.isEmpty());
-        assertEquals("deve ser uma data no passado ou no presente",
+        assertEquals("dataHora must be in the past or in the present",
                 violations.iterator().next().getMessage());
     }
     @Test
@@ -78,6 +78,6 @@ public class TransactionDTOTest {
                 BigDecimal.valueOf(5),
                 OffsetDateTime.now().minusHours(9)
         );
-        assertTrue(transaction.time().isBefore(OffsetDateTime.now()));
+        assertTrue(transaction.dataHora().isBefore(OffsetDateTime.now()));
     }
 }

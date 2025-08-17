@@ -1,4 +1,4 @@
-package com.unibanco.itau;
+package com.unibanco.itau.dto;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validation;
