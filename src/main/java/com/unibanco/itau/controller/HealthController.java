@@ -13,7 +13,6 @@ public class HealthController {
     private static final Logger logger = LoggerFactory.getLogger(HealthController.class);
     @GetMapping
     public ResponseEntity<Void> healthCheck(){
-        logger.info("Health Check");
         return ResponseEntity.ok().build();
     }
 }

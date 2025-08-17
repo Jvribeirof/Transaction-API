@@ -147,3 +147,7 @@
 [2025-08-17 22:45:54] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 4.663 seconds (process running for 5.999)
 [2025-08-17 22:45:59] [http-nio-8080-exec-1] INFO  c.u.itau.controller.HealthController - Health Check
 [2025-08-17 22:46:30] [http-nio-8080-exec-2] INFO  c.u.itau.controller.HealthController - Health Check
+[2025-08-17 22:47:00] [http-nio-8080-exec-3] INFO  c.u.itau.controller.HealthController - Health Check
+[2025-08-17 23:39:38] [http-nio-8080-exec-4] INFO  c.u.itau.controller.HealthController - Health Check
+[2025-08-17 23:40:18] [http-nio-8080-exec-5] INFO  c.u.itau.controller.HealthController - Health Check
+[2025-08-17 23:40:48] [http-nio-8080-exec-6] INFO  c.u.itau.controller.HealthController - Health Check
