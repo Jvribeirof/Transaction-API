@@ -1,0 +1,84 @@
+openapi: "3.0.0"
+info:
+  title: Transaction API
+  version: "0.1"
+  description: |
+    A simple project to connect some dots about professional back-end development.
+    This API uses dates according to the ISO 8601 standard and supports currency data.
+    This document is provided to simplify API usage: send transactions and view statistics about them.
+  contact:
+    email: jvribeiro.dev@gmail.com
+    url: https://www.linkedin.com/in/joão-vitor-ribeiro-fernandes
+    name: João Vitor Ribeiro Fernandes
+servers:
+  - url: http://localhost:8080/api
+    description: Transaction API
+paths:
+  /transacao:
+    post:
+      summary: Send a transaction
+      description: Send a transaction with the required input. Transactions are stored in memory.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Transaction'
+      responses:
+        '201':
+          description: Created
+        '400':
+          description: Bad Request
+        '422':
+          description: Unprocessable Entity
+    get:
+      summary: Show statistics about your transactions
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Statistics'
+    delete:
+      summary: Delete all transactions in memory
+      responses:
+        '200':
+          description: Success
+components:
+  schemas:
+    Transaction:
+      type: object
+      properties:
+        valor:
+          type: number
+          example: 123.45
+        dataHora:
+          type: string
+          format: date-time
+          example: "2020-08-07T12:34:56.789-03:00"
+      required:
+        - valor
+        - dataHora
+    Statistics:
+      type: object
+      properties:
+        count:
+          type: integer
+          example: 5
+        sum:
+          type: number
+          format: double
+          example: 456.78
+        avg:
+          type: number
+          format: double
+          example: 333.33
+        min:
+          type: number
+          format: double
+          example: 1.23
+        max:
+          type: number
+          format: double
+          example: 789.10

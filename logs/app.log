@@ -1,0 +1,149 @@
+[2025-08-18 15:16:25] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 19060 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:16:25] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:22:26] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 6116 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:22:26] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:22:29] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.714 seconds (process running for 4.402)
+[2025-08-18 15:22:29] [main] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-18 15:23:37] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 26292 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:23:37] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:23:39] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.584 seconds (process running for 4.258)
+[2025-08-18 15:23:39] [main] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-18 15:24:41] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 20536 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:24:41] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:24:43] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.303 seconds (process running for 3.737)
+[2025-08-18 15:29:19] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 17340 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:29:19] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:29:21] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.27 seconds (process running for 3.864)
+[2025-08-18 15:29:21] [main] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-18 15:30:16] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 22688 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:30:16] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:30:18] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.24 seconds (process running for 3.781)
+[2025-08-18 15:30:18] [main] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-18 15:40:31] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 10228 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:40:31] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:40:34] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 3.225 seconds (process running for 4.871)
+[2025-08-18 15:40:34] [main] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-18 15:48:50] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 18176 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:48:50] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:48:52] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.302 seconds (process running for 3.875)
+[2025-08-18 15:48:52] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-18 15:50:50] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 9856 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:50:50] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:50:52] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.542 seconds (process running for 4.126)
+[2025-08-18 15:50:52] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-18 15:53:51] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 4072 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 15:53:51] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 15:53:53] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.626 seconds (process running for 4.392)
+[2025-08-18 15:53:53] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-18 16:15:24] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 13276 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-18 16:15:24] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-18 16:15:28] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 3.902 seconds (process running for 5.76)
+[2025-08-18 16:15:28] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 16:33:04] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 4708 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 16:33:04] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 16:33:07] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 3.473 seconds (process running for 5.63)
+[2025-08-17 16:33:07] [main] INFO  c.u.i.c.TransactionController - Statistics was deleted
+[2025-08-17 17:14:35] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 16412 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 17:14:35] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 17:14:38] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 3.614 seconds (process running for 5.722)
+[2025-08-17 17:14:38] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:09:20] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 28616 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:09:20] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:09:23] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 4.034 seconds (process running for 6.054)
+[2025-08-17 18:09:24] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:17:13] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 21024 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:17:13] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:17:16] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 3.677 seconds (process running for 5.518)
+[2025-08-17 18:17:16] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:25:38] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 20484 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:25:38] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:25:41] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 3.668 seconds (process running for 5.425)
+[2025-08-17 18:25:42] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:26:44] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 24272 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:26:44] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:26:46] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.508 seconds (process running for 4.182)
+[2025-08-17 18:26:46] [main] INFO  c.u.i.c.TransactionController - Statistics was deleted
+[2025-08-17 18:29:01] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 6008 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:29:01] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:29:03] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.433 seconds (process running for 4.174)
+[2025-08-17 18:29:03] [main] INFO  c.u.i.c.TransactionController - Statistics was deleted
+[2025-08-17 18:34:34] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 19996 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:34:34] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:34:38] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 4.547 seconds (process running for 6.771)
+[2025-08-17 18:34:38] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:35:12] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 18948 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:35:12] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:35:14] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 25308 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:35:14] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:35:17] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 5.298 seconds (process running for 9.141)
+[2025-08-17 18:35:17] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:35:18] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 5.082 seconds (process running for 8.318)
+[2025-08-17 18:35:19] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:38:01] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 11188 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:38:01] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:38:04] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 3.84 seconds (process running for 5.81)
+[2025-08-17 18:38:05] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:38:13] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 24544 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:38:13] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:38:16] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 2.736 seconds (process running for 4.347)
+[2025-08-17 18:38:16] [main] INFO  c.u.i.c.TransactionController - Statistics was deleted
+[2025-08-17 18:38:16] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 18:38:16] [main] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-17 21:39:05] [main] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 1 (/app/app.jar started by root in /app)
+[2025-08-17 21:39:05] [main] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 21:39:07] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 2.496 seconds (process running for 3.666)
+[2025-08-17 21:41:37] [http-nio-8080-exec-8] INFO  c.u.i.e.GlobalExceptionHandler - Error appears
+[2025-08-17 21:43:31] [http-nio-8080-exec-9] INFO  c.u.i.e.GlobalExceptionHandler - Error appears
+[2025-08-17 21:44:02] [http-nio-8080-exec-10] INFO  c.u.i.e.GlobalExceptionHandler - Error appears
+[2025-08-17 21:44:25] [http-nio-8080-exec-2] INFO  c.u.i.e.GlobalExceptionHandler - Error appears
+[2025-08-17 21:45:27] [http-nio-8080-exec-5] INFO  c.u.i.e.GlobalExceptionHandler - Error appears
+[2025-08-17 18:50:31] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 1944 (C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 18:50:31] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 18:50:33] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.078 seconds (process running for 3.963)
+[2025-08-17 18:50:46] [http-nio-8080-exec-2] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-17 18:51:09] [http-nio-8080-exec-3] INFO  c.u.i.e.GlobalExceptionHandler - Error appears
+[2025-08-17 18:51:21] [http-nio-8080-exec-4] INFO  c.u.i.e.GlobalExceptionHandler - Error appears
+[2025-08-17 18:51:37] [http-nio-8080-exec-7] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-17 18:58:25] [http-nio-8080-exec-9] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-17 18:58:32] [http-nio-8080-exec-1] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-17 19:02:22] [http-nio-8080-exec-5] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 19:03:54] [http-nio-8080-exec-7] INFO  c.u.i.c.TransactionController - Statistics was deleted
+[2025-08-17 19:16:59] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 26368 (C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 19:16:59] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 19:17:01] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 2.867 seconds (process running for 3.721)
+[2025-08-17 19:17:37] [http-nio-8080-exec-2] INFO  c.u.itau.controller.HealthController - Health Check
+[2025-08-17 19:21:13] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 13188 (C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 19:21:13] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 19:21:15] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.29 seconds (process running for 4.316)
+[2025-08-17 22:21:28] [main] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 1 (/app/app.jar started by root in /app)
+[2025-08-17 22:21:28] [main] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 22:21:32] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 4.517 seconds (process running for 7.21)
+[2025-08-17 22:25:38] [main] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 1 (/app/app.jar started by root in /app)
+[2025-08-17 22:25:38] [main] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 22:25:43] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 5.555 seconds (process running for 7.84)
+[2025-08-17 19:31:22] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 20772 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 19:31:22] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 19:33:39] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 22080 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 19:33:39] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 19:34:48] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 11168 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 19:34:48] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 19:35:12] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 26960 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 19:35:12] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 19:38:30] [main] INFO  c.u.i.c.TransactionControllerTest - Starting TransactionControllerTest using Java 24.0.1 with PID 23108 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 19:38:30] [main] INFO  c.u.i.c.TransactionControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 19:38:34] [main] INFO  c.u.i.c.TransactionControllerTest - Started TransactionControllerTest in 4.344 seconds (process running for 6.825)
+[2025-08-17 19:38:34] [main] INFO  c.u.i.c.TransactionController - Statistics was deleted
+[2025-08-17 19:38:34] [main] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-08-17 19:38:34] [main] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-08-17 19:39:02] [main] INFO  c.u.i.c.HealthControllerTest - Starting HealthControllerTest using Java 24.0.1 with PID 22288 (started by jvrib in C:\Users\jvrib\OneDrive\Área de Trabalho\Documentos\Projetos Dev\itau)
+[2025-08-17 19:39:02] [main] INFO  c.u.i.c.HealthControllerTest - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 19:39:03] [main] INFO  c.u.i.c.HealthControllerTest - Started HealthControllerTest in 1.618 seconds (process running for 3.565)
+[2025-08-17 19:39:04] [main] INFO  c.u.itau.controller.HealthController - Health Check
+[2025-08-17 22:39:47] [main] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 1 (/app/app.jar started by root in /app)
+[2025-08-17 22:39:47] [main] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 22:39:50] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.56 seconds (process running for 4.843)
+[2025-08-17 22:45:50] [main] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 1 (/app/app.jar started by root in /app)
+[2025-08-17 22:45:50] [main] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-08-17 22:45:54] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 4.663 seconds (process running for 5.999)
+[2025-08-17 22:45:59] [http-nio-8080-exec-1] INFO  c.u.itau.controller.HealthController - Health Check
+[2025-08-17 22:46:30] [http-nio-8080-exec-2] INFO  c.u.itau.controller.HealthController - Health Check
