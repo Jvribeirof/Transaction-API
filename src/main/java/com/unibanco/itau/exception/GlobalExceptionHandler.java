@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class GlobalExceptionHandler {
     private static final Logger logger = LoggerFactory.getLogger(GlobalExceptionHandler.class);
     @ExceptionHandler(Exception.class)
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-    public void genericHandler() {
-        logger.info("Error appears");
+    public ResponseEntity<Void> genericHandler(Exception e) {
+        logger.info(e.getMessage());
+        return ResponseEntity.internalServerError().build();
     }
 
     @ExceptionHandler(HttpMessageNotReadableException.class)

@@ -1,11 +1,8 @@
 openapi: "3.0.0"
 info:
   title: Transaction API
-  version: "0.1"
-  description: |
-    A simple project to connect some dots about professional back-end development.
-    This API uses dates according to the ISO 8601 standard and supports currency data.
-    This document is provided to simplify API usage: send transactions and view statistics about them.
+  version: "0.4"
+  description: "A simple project to connect some dots about professional back-end development. This API uses dates according to the ISO 8601 standard and supports currency data. This document is provided to simplify API usage: send transactions and view statistics about them."
   contact:
     email: jvribeiro.dev@gmail.com
     url: https://www.linkedin.com/in/joão-vitor-ribeiro-fernandes
