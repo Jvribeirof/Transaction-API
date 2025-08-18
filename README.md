@@ -6,7 +6,7 @@ deploy e monitoramento.
 
 ## 📖 Sobre o Projeto
 
-Esta API foi desenvolvida como uma demonstração prática das melhores
+Esta API foi desenvolvida como uma demonstração das melhores
 práticas de engenharia de software no desenvolvimento back-end. Ela
 simula um sistema de transações financeiras, focando não apenas na
 lógica de negócio, mas também na qualidade, manutenibilidade, e na
