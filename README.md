@@ -19,7 +19,7 @@ operações.
 
 ## ✨ Principais Features
 
--   **Gestão de Transações**: Funcionalidades CRUD completas para envio
+-   **Gestão de Transações**: Funcionalidades completas para envio
     e consulta de transações.
 -   **Tratamento de Dados Financeiros**: Lógica implementada para lidar
     com diferentes moedas e garantir a precisão dos valores.
