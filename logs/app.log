@@ -1,12 +1,53 @@
-[2025-08-18 00:03:16] [main] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 1 (/app/app.jar started by root in /app)
-[2025-08-18 00:03:16] [main] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-08-18 00:03:19] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.811 seconds (process running for 5.213)
-[2025-08-18 00:03:39] [http-nio-8080-exec-9] INFO  c.u.i.e.GlobalExceptionHandler - src/main/resources/db/database.json (No such file or directory)
-[2025-08-18 00:09:11] [main] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 1 (/app/app.jar started by root in /app)
-[2025-08-18 00:09:11] [main] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-08-18 00:09:14] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 2.786 seconds (process running for 3.79)
-[2025-08-18 00:11:35] [main] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication v0.0.1-SNAPSHOT using Java 17.0.16 with PID 1 (/app/app.jar started by root in /app)
-[2025-08-18 00:11:35] [main] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-08-18 00:11:38] [main] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 2.747 seconds (process running for 3.672)
-[2025-08-18 00:12:09] [http-nio-8080-exec-7] INFO  c.u.i.c.TransactionController - Transaction created
-[2025-08-18 00:12:16] [http-nio-8080-exec-9] INFO  c.u.i.e.GlobalExceptionHandler - No static resource favicon.ico.
+[2025-09-06 13:24:29] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 19848 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 13:24:29] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 13:24:33] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 5.163 seconds (process running for 6.582)
+[2025-09-06 13:26:28] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 12844 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 13:26:28] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 13:26:31] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.171 seconds (process running for 4.085)
+[2025-09-06 13:33:20] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 27608 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 13:33:20] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 13:33:22] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.171 seconds (process running for 4.074)
+[2025-09-06 13:38:41] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 1700 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 13:38:41] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 13:38:44] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.202 seconds (process running for 4.116)
+[2025-09-06 13:42:13] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 8948 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 13:42:13] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 13:42:16] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.276 seconds (process running for 4.199)
+[2025-09-06 13:51:50] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 28716 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 13:51:50] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 13:51:53] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.506 seconds (process running for 4.532)
+[2025-09-06 14:36:54] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 5676 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 14:36:54] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 14:36:58] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 4.503 seconds (process running for 5.616)
+[2025-09-06 14:42:50] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 24004 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 14:42:50] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 14:42:53] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.307 seconds (process running for 4.176)
+[2025-09-06 14:45:27] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 5632 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 14:45:27] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 14:45:30] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.221 seconds (process running for 4.082)
+[2025-09-06 14:47:11] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 20792 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 14:47:11] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 14:47:14] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.275 seconds (process running for 4.263)
+[2025-09-06 14:48:36] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 18648 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 14:48:36] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 14:48:39] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.655 seconds (process running for 4.512)
+[2025-09-06 14:49:33] [http-nio-8080-exec-2] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-06 14:52:06] [http-nio-8080-exec-5] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-06 16:09:04] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 24496 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 16:09:04] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 16:09:07] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.446 seconds (process running for 4.366)
+[2025-09-06 16:09:46] [http-nio-8080-exec-2] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-06 16:10:19] [http-nio-8080-exec-5] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-06 16:18:59] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 8880 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 16:18:59] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 16:19:01] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.241 seconds (process running for 4.109)
+[2025-09-06 16:19:33] [http-nio-8080-exec-5] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-06 16:19:44] [http-nio-8080-exec-6] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-06 16:20:56] [http-nio-8080-exec-10] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-06 16:39:15] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 26328 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 16:39:15] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 16:39:18] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.426 seconds (process running for 4.272)
+[2025-09-06 16:44:27] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 24960 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-06 16:44:27] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-06 16:44:30] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 3.327 seconds (process running for 4.23)
+[2025-09-06 16:44:38] [http-nio-8080-exec-1] INFO  c.u.i.c.TransactionController - Transaction created
