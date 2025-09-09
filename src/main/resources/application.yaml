@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: itau
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_training
+    username: ribeiro
+    password: jvr061112
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
