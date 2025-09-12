@@ -1,4 +1,4 @@
-package com.unibanco.itau;
+package com.unibanco.itau.entity;
 
 import jakarta.persistence.*;
 import org.springframework.security.core.GrantedAuthority;

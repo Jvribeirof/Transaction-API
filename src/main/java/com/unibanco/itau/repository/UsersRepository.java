@@ -1,5 +1,6 @@
-package com.unibanco.itau;
+package com.unibanco.itau.repository;
 
+import com.unibanco.itau.entity.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
