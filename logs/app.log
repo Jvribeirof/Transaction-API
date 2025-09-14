@@ -1,37 +1,13 @@
-[2025-09-11 20:10:15] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 27592 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 20:10:15] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 20:23:41] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 11852 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 20:23:41] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 20:26:15] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 21856 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 20:26:15] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 20:26:26] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 11.655 seconds (process running for 12.597)
-[2025-09-11 20:31:56] [http-nio-8080-exec-2] INFO  c.u.i.e.GlobalExceptionHandler - Usuário inexistente ou senha inválida
-[2025-09-11 20:34:15] [http-nio-8080-exec-7] INFO  c.u.i.e.GlobalExceptionHandler - Usuário inexistente ou senha inválida
-[2025-09-11 20:34:18] [http-nio-8080-exec-5] INFO  c.u.i.e.GlobalExceptionHandler - Usuário inexistente ou senha inválida
-[2025-09-11 20:35:13] [http-nio-8080-exec-8] INFO  c.u.i.e.GlobalExceptionHandler - Usuário inexistente ou senha inválida
-[2025-09-11 20:38:08] [http-nio-8080-exec-10] INFO  c.u.i.e.GlobalExceptionHandler - Usuário inexistente ou senha inválida
-[2025-09-11 20:40:22] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 3668 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 20:40:22] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 20:40:28] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 6.65 seconds (process running for 7.679)
-[2025-09-11 20:42:10] [http-nio-8080-exec-7] INFO  c.u.i.e.GlobalExceptionHandler - Usuário inexistente ou senha inválida
-[2025-09-11 20:51:58] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 27260 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 20:51:58] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 20:52:05] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 6.854 seconds (process running for 7.789)
-[2025-09-11 20:52:12] [http-nio-8080-exec-1] INFO  c.u.i.e.GlobalExceptionHandler - The specified key byte array is 72 bits which is not secure enough for any JWT HMAC-SHA algorithm.  The JWT JWA Specification (RFC 7518, Section 3.2) states that keys used with HMAC-SHA algorithms MUST have a size >= 256 bits (the key size must be greater than or equal to the hash output size).  Consider using the io.jsonwebtoken.security.Keys#secretKeyFor(SignatureAlgorithm) method to create a key guaranteed to be secure enough for your preferred HMAC-SHA algorithm.  See https://tools.ietf.org/html/rfc7518#section-3.2 for more information.
-[2025-09-11 20:59:17] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 12256 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 20:59:17] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 20:59:23] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 6.655 seconds (process running for 7.601)
-[2025-09-11 21:02:39] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 13192 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 21:02:39] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 21:02:45] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 6.125 seconds (process running for 7.011)
-[2025-09-11 21:11:13] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 15644 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 21:11:13] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 21:11:20] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 6.693 seconds (process running for 7.672)
-[2025-09-11 21:11:43] [http-nio-8080-exec-3] INFO  c.u.i.c.TransactionController - Statistics was called
-[2025-09-11 21:13:21] [http-nio-8080-exec-7] INFO  c.u.i.c.TransactionController - Statistics was called
-[2025-09-11 21:13:28] [http-nio-8080-exec-2] INFO  c.u.i.c.TransactionController - Statistics was called
-[2025-09-11 21:14:42] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 2124 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
-[2025-09-11 21:14:42] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
-[2025-09-11 21:14:48] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 6.582 seconds (process running for 7.465)
-[2025-09-11 21:15:37] [http-nio-8080-exec-5] INFO  c.u.i.c.TransactionController - Statistics was called
-[2025-09-11 21:16:46] [http-nio-8080-exec-4] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-09-14 14:10:12] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 2876 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-14 14:10:12] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-14 14:10:19] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 7.759 seconds (process running for 8.933)
+[2025-09-14 14:11:00] [http-nio-8080-exec-3] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-14 14:11:17] [http-nio-8080-exec-4] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-14 14:12:03] [http-nio-8080-exec-10] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-09-14 14:13:12] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Starting ItauApplication using Java 24.0.1 with PID 5048 (C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API\target\classes started by jvrib in C:\Users\jvrib\OneDrive\Documentos\GitHub\Transaction-API)
+[2025-09-14 14:13:12] [restartedMain] INFO  com.unibanco.itau.ItauApplication - No active profile set, falling back to 1 default profile: "default"
+[2025-09-14 14:13:19] [restartedMain] INFO  com.unibanco.itau.ItauApplication - Started ItauApplication in 7.067 seconds (process running for 8.204)
+[2025-09-14 14:14:21] [http-nio-8080-exec-4] INFO  c.u.i.c.TransactionController - Statistics was called
+[2025-09-14 14:14:25] [http-nio-8080-exec-5] INFO  c.u.i.c.TransactionController - Transaction created
+[2025-09-14 14:14:32] [http-nio-8080-exec-10] INFO  c.u.i.c.TransactionController - Statistics was deleted
+[2025-09-14 14:15:00] [http-nio-8080-exec-6] INFO  c.u.i.c.TransactionController - Transaction created

@@ -32,8 +32,8 @@ public class JwtService {
                 .build();
     }
     public boolean isValidToken(String token, UserDetails userDetails) {
-        var parsedToken = parseToken().parseClaimsJws(token);
-        return parsedToken.getBody().getSubject().equals(userDetails.getUsername());
+        var parsedToken = extractUsername(token);
+        return parsedToken.equals(userDetails.getUsername());
     }
 
     public String extractUsername(String token){
