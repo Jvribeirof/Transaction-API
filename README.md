@@ -36,3 +36,10 @@ operações.
     para uma melhor experiência do cliente da API.
 -   **Suíte de Testes Completa**: Alta cobertura de testes com testes
     unitários e de integração.
+
+## ✨ Nova Features
+-   **Autenticação (JWT)**: Sistema de autenticação de 2 usuários para
+    limitar o acesso à API.
+-   **Autorização**: Sistema de autorização que permite a a restrição
+    de usuários a certos endpoints. O tipo de autenticação uzado foi JWT
+    de forma que mantenha o alto nível de segurança do sistema.
