@@ -5,9 +5,9 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Entity
 public class Users implements UserDetails {
@@ -17,33 +17,37 @@ public class Users implements UserDetails {
 
     private String username;
     private String password;
+    private List<String> authority;
 
-    @ElementCollection(fetch = FetchType.EAGER)
-    private List<String> role;
+    @OneToOne(mappedBy = "users",cascade = CascadeType.ALL)
+    private ApiKey key;
 
-    public Users(String username, String password, List<String> roles) {
+    public Users(String username, String password, List<String> authority, ApiKey key) {
         this.username = username;
         this.password = password;
-        this.role = new ArrayList<>();
-        this.role.addAll(roles);
+        this.authority = authority;
+        this.key = key;
     }
     public Users(){}
 
-
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return role.stream()
+        return this.authority.stream()
                 .map(SimpleGrantedAuthority::new)
-                .toList();
+                .collect(Collectors.toList());
     }
-
     @Override
     public String getPassword() {
         return this.password;
     }
-
     @Override
     public String getUsername() {
         return this.username;
+    }
+    public ApiKey getKey(){
+        return this.key;
+    }
+    public List<String> getAuthority(){
+        return this.authority;
     }
 }

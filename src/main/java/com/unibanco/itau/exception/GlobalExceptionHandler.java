@@ -24,6 +24,10 @@ public class GlobalExceptionHandler {
     public ResponseEntity<Void> handlerJsonBadRequest(){
         return ResponseEntity.badRequest().build();
     }
+    @ExceptionHandler(UsernameAlreadyExistException.class)
+    public ResponseEntity<String> handlerUsernameBadRequest(){
+        return ResponseEntity.badRequest().body("Username already exists");
+    }
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Void> handlerJsonNotValid(){
         return ResponseEntity.unprocessableEntity().build();

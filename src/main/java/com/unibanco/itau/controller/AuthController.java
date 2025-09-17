@@ -1,11 +1,9 @@
 package com.unibanco.itau.controller;
 
 import com.unibanco.itau.dto.UserCredentialsDTO;
-import com.unibanco.itau.service.JwtService;
-import org.springframework.security.authentication.AuthenticationManager;
-import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.userdetails.UserDetails;
+import com.unibanco.itau.exception.UsernameAlreadyExistException;
+import com.unibanco.itau.service.UsersService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,19 +12,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/login")
 public class AuthController {
-    private final JwtService jwtService;
-    private AuthenticationManager authenticationManager;
-    public AuthController(JwtService service, AuthenticationManager authManager){
-        this.jwtService = service;
-        this.authenticationManager = authManager;
+    private final UsersService usersService;
+    public AuthController(UsersService usersService){
+        this.usersService = usersService;
     }
     @PostMapping
-    public String login(@RequestBody UserCredentialsDTO credentials){
-        var token = new UsernamePasswordAuthenticationToken(
-                credentials.username(),credentials.password()
-        );
-        Authentication authToken = authenticationManager.authenticate(token);
-        UserDetails principal = (UserDetails) authToken.getPrincipal();
-        return jwtService.generateToken(principal);
+    public ResponseEntity<String> register(@RequestBody UserCredentialsDTO credentials){
+        if (usersService.usernameExist(credentials.username())){
+            throw new UsernameAlreadyExistException("Username already exist");
+        }
+        var user = usersService.saveUser(credentials.username(), credentials.password());
+        return ResponseEntity.ok().body(user.getKey().getKey());
     }
 }
