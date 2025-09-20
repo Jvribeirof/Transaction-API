@@ -8,9 +8,12 @@ import com.unibanco.itau.service.StatisticsService;
 import com.unibanco.itau.service.TransactionService;
 import org.junit.jupiter.api.Test;
 
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
+import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -24,7 +27,8 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-@WebMvcTest(TransactionController.class)
+@SpringBootTest
+@AutoConfigureMockMvc
 public class TransactionControllerTest {
     @Autowired
     private MockMvc mockMvc;
@@ -38,6 +42,7 @@ public class TransactionControllerTest {
     private DateConversion dateConversion;
 
     @Test
+    @WithMockUser
     public void postTransaction_Returns201_WhenCreateTransaction() throws Exception {
         String path = "src/main/resources/db/database-test.json";
         TransactionDTO transaction = new TransactionDTO(
@@ -57,6 +62,7 @@ public class TransactionControllerTest {
     }
 
     @Test
+    @WithMockUser
     public void getTransaction_Return200_WhenShowStatistics() throws Exception {
         String path = "src/main/resources/db/database-test.json";
         StatisticDTO statistic = new StatisticDTO(
@@ -81,6 +87,7 @@ public class TransactionControllerTest {
     }
 
     @Test
+    @WithMockUser(authorities = "ADMIN")
     public void deleteTransaction_Return200_WhenDeleteStatistics() throws Exception {
         String path = "src/main/resources/db/database-test.json";
         doNothing().when(transactionService).deleteFile(path);
