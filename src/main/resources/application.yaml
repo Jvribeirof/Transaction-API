@@ -3,8 +3,8 @@ spring:
     name: itau
   datasource:
     url: jdbc:postgresql://localhost:5432/api-key
-    username: ribeiro
-    password: jvr061112
+    username: x
+    password: x
   jpa:
     hibernate:
       ddl-auto: update
